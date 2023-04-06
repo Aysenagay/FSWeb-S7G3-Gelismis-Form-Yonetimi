@@ -1,3 +1,7 @@
+body {
+  background-image: url("https://i.pinimg.com/236x/cd/95/eb/cd95eb87d4a576b170bb571364b67d8d.jpg");
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+label {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+button {
+  padding: 5px;
+  margin: auto;
 }
